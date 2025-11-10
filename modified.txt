@@ -1,0 +1,2 @@
+hii world. hii Python world!
+This is a simple text file example.

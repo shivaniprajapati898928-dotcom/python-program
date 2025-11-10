@@ -1,0 +1,37 @@
+ Pandas Series
+A Pandas Series is one-dimensional labeled array capable of holding data of any type (integer, string, float, Python objects etc.). The axis labels are collectively called indexes.
+
+Pandas Series is created by loading the datasets from existing storage which can be a SQL database, a CSV file or an Excel file. It can be created from lists, dictionaries, scalar values, etc.
+
+Example: Creating a series using the Pandas Library.
+
+
+import pandas as pd 
+import numpy as np
+
+ser = pd.Series() 
+print("Pandas Series: ", ser) 
+
+data = np.array(['g', 'e', 'e', 'k', 's']) 
+  
+ser = pd.Series(data) 
+print("Pandas Series:\n", ser)
+Output:
+
+pandas2
+Pandas Series
+2. Pandas DataFrame
+Pandas DataFrame is a two-dimensional data structure with labeled axes (rows and columns). It is created by loading the datasets from existing storage which can be a SQL database, a CSV file or an Excel file. It can be created from lists, dictionaries, a list of dictionaries etc.
+
+Example: Creating a DataFrame Using the Pandas Library
+
+
+import pandas as pd 
+   
+df = pd.DataFrame() 
+print(df)
+
+lst = ['Geeks', 'For', 'Geeks', 'is', 'portal', 'for', 'Geeks'] 
+  
+df = pd.DataFrame(lst) 
+print(df)

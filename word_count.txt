@@ -1,0 +1,11 @@
+Word Frequency Count:
+a: 1
+example: 1
+file: 1
+hello: 2
+is: 1
+python: 1
+simple: 1
+text: 1
+this: 1
+world: 2
